@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		Scanner reader = new Scanner(System.in);
-      		System.out.print("Enter a number: ");
+		int first = 10;
+       		int second = 20;
 
+      		System.out.println("Enter two numbers: " + first + " " + second);
+        	int sum = first + second;
 
-	        int number = reader.nextInt();
+	        System.out.println("The sum is: " + sum);
 
-
-	        System.out.println("You entered: " + number);
 		System.out.println("Hello World!!!");
 
 	}
